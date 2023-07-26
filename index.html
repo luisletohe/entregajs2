@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <title>EXPLORADOR</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">EXPLORADOR</a>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/cabañas.html">Cabañas</a></li>
+                <li><a href="./pages/ubicacion.html">Ubicación</a></li>
+                <li><a href="./pages/reservas.html">Reservas</a></li>
+            </ul>
+        </nav>
+        <h1 id="titulo"><span>Alquiler De Cabañas</span></h1>
+        <a href="./pages/cabañas.html" class="btn">Ver Cabañas</a>
+    </header>
+
+    <main>
+        <label for="ingreso">consigue las mejores ofertas</label>
+        <input type="text" name="ingreso" value="" id="ingreso" />
+
+        <button id="btnsearch" class="btn btn-search">buscar</button>
+        <div id="contenedor">
+        </div>
+
+        <h2>LOGIN</h2>
+
+        <form id="form-login">
+            <input type="text" placeholder="Usuario" id="user">
+            <input type="password" placeholder="Password" id="pass">
+            <div class="check">
+                <label for="check">Recordar</label>
+                <input type="checkbox" id="check">
+                <p id="message"></p>
+            </div>
+            <input type="submit" class="btn btn-login" value="Ingresar" id="login">
+            <section class="gallery">
+                <div class="img-container">
+                    <ul><a href="./pages/cabañas.html"><img src="./img/1.jpg" alt="Cabaña 1" </a> </ul> />
+                </div>
+                <div class="img-container">
+                    <img src="./img/2.jpg" alt="Cabaña 2" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/3.jpg" alt="Cabaña 3" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/4.jpg" alt="Cabaña 4" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/5.jpg" alt="Cabaña 5" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/6.jpg" alt="Cabaña 6" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/7.jpg" alt="Cabaña 7" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/8.jpg" alt="Cabaña 8" />
+                </div>
+                <div class="img-container">
+                    <img src="./img/9.jpg" alt="Cabaña 9" />
+                </div>
+
+
+
+
+
+
+            </section>
+
+            <section class="booking">
+                <h2>Reserva tu cabaña</h2>
+                <div>
+                <form>
+                    <label for="name">Nombre completo:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="check-in">Fecha de llegada:</label>
+                    <input type="date" id="check-in" name="check-in" required>
+
+                    <label for="check-out">Fecha de salida:</label>
+                    <input type="date" id="check-out" name="check-out" required>
+
+                    <button type="submit">Reservar</button>
+                </div>
+
+
+
+                </form>
+            </section>
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="./img/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="./img/instagram.png" alt="instagram"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+            <img src="./img/gorjeo.png" alt="twitter"></a>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
